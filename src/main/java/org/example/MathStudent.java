@@ -11,6 +11,7 @@ public class MathStudent extends Student {
 
     @Override
     public void writeExam(){
-        System.out.println(write);
+        System.out.println("ФН пишет жкзамен - " + write);
     }
 }
+

@@ -1,11 +1,11 @@
 package org.example;
 
 abstract public class Student {
-    private String name;
-    private String second_name;
-    private String third_name;
-    private int course;
-    private int grade;
+    protected String name;
+    protected String second_name;
+    protected String third_name;
+    protected int course;
+    protected int grade;
 
     public Student(String name, String second_name, String third_name, int course, int grade){
         this.name = name;

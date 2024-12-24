@@ -11,6 +11,6 @@ public class IUStudent extends Student {
 
     @Override
     public void writeExam(){
-        System.out.println(write);
+        System.out.println("Иу пишет экзамен - " + write);
     }
 }
